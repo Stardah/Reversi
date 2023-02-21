@@ -19,6 +19,11 @@ int main()
 	moves[0] = std::pair<int, int>(2, 3);
 	moves[1] = std::pair<int, int>(1, 2);
 	moves[2] = std::pair<int, int>(4, 6);
+	moves[3] = std::pair<int, int>(4, 3);
+	moves[4] = std::pair<int, int>(4, 4);
+
+	// nothing
+	// ... code
 
 	Menu::drawBoard(board, moves);
 }
