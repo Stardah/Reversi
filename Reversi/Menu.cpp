@@ -86,3 +86,7 @@ void Menu::drawBoard(Board<> board, const std::vector<std::pair<int, int>>& pair
 void Menu::startGame() const
 {
 }
+
+void Menu::printStep()
+{
+}

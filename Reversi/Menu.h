@@ -19,6 +19,8 @@ public:
 
 	void startGame() const;
 
+	void printStep();
+
 private:
 	int mode_ = 0;
 };
